@@ -1,0 +1,14 @@
+.vscode/
+node_modules/
+public/
+__pycache__/
+migrations/
+media/
+venv/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.env
