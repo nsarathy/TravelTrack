@@ -33,7 +33,7 @@ python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
 ```
-In another terminal in `TravelTrack`
+In another terminal in `TravelTrack/`
 ```
 npm run dev
 ```
