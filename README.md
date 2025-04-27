@@ -25,6 +25,12 @@ cd TravelTrack
 cd django-backend
 pip install -r requrirements.txt
 ```
+Back to `TravelTrack/` - `cd ..`
+Install node.js if not already installed. 
+```
+cd vue-frontend
+npm install
+```
 ### Usage
 In `TravelTrack/`
 ```
