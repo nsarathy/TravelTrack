@@ -8,8 +8,33 @@ Travel Log application
 Vue + Vite, Django, SQLite, Node.js
 - Frontend: vue-frontend/
 - Backend: django-backend/
+- DB schema: django-backend/api/models.py
 - SQLite prepared statements: django-backend/api/views.py
 - Django ORM statements: django-backend/api/views.py
-- DB structure and indexes: django-backend/api/models.py
+- DB indexes: django-backend/api/models.py
 
-## Installation and Usage
+## Usage
+In command-line
+### After downloading code
+```
+cd TravelTrack
+```
+### Installing requirements
+- Install python if not already installed.
+```
+cd django-backend
+pip install -r requrirements.txt
+```
+### Usage
+In `TravelTrack/`
+```
+cd django-backend
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+```
+In another terminal in `TravelTrack`
+```
+npm run dev
+```
+Then go to [localhost:5173](http://localhost:5173/)

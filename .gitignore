@@ -3,8 +3,12 @@ node_modules/
 public/
 __pycache__/
 migrations/
-media/
+dist/
+dist-electron/
+build/
 venv/
+traveltrack-win32-x64/
+database/
 *.pyc
 *.pyo
 *.pyd
@@ -12,3 +16,5 @@ venv/
 *.sqlite3
 *.log
 *.env
+*.exe
+*.spec
