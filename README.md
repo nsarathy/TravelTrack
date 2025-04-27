@@ -13,7 +13,7 @@ Vue + Vite, Django, SQLite, Node.js
 - Django ORM statements: django-backend/api/views.py
 - DB indexes: django-backend/api/models.py
 
-## Usage
+## Installation
 In command-line
 ### After downloading code
 ```
@@ -25,13 +25,13 @@ cd TravelTrack
 cd django-backend
 pip install -r requrirements.txt
 ```
-Back to `TravelTrack/` - `cd ..`
-Install node.js if not already installed. 
+- Back to `TravelTrack/` - `cd ..`
+- Install node.js if not already installed. 
 ```
 cd vue-frontend
 npm install
 ```
-### Usage
+## Usage
 In `TravelTrack/`
 ```
 cd django-backend
