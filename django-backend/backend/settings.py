@@ -21,6 +21,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-2ax1iibu23k0668-vof=!u3r48=em^x3@mq%82p8xdwd6zd)ie'
+# TravelTrack is not meant for production use, so this key is just a placeholder.
+# If you have forked this project and wish to use it in production, please generate a new secret key.
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
