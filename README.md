@@ -14,8 +14,13 @@ Vue + Vite, Django, SQLite, Node.js
 - DB indexes: django-backend/api/models.py
 
 ## Installation
-In command-line
-### After downloading code
+In command console
+### Download TravelTrack
+In your desired folder, 
+```
+git clone https://github.com/nsarathy/TravelTrack.git
+```
+### After downloading
 ```
 cd TravelTrack
 ```
