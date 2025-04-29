@@ -20,7 +20,9 @@ In command-line
 cd TravelTrack
 ```
 - Install python in your device if not already installed.
+- https://www.python.org/downloads/ 
 - Install node.js in your device if not already installed.
+- https://nodejs.org/en/download
 - If python and node are installed:
 ```
 python install.py
