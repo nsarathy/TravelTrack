@@ -56,7 +56,9 @@ const goToReport = () => {
 
 <template>
   <div class="container">
-    <h1>Travel Tracker</h1>
+    <h1 style="display: inline-flex; align-items: center; gap: 10px;">
+      <img src="../assets/travel-icon.png" alt="Travel Icon" style="height: 4em;">
+    </h1>
     <div class="input-container">
       <input v-model="tripName" placeholder="Trip Name" />
       <button @click="addTrip">+ Add Trip</button>

@@ -19,31 +19,17 @@ In command-line
 ```
 cd TravelTrack
 ```
-### Installing requirements
-- Install python if not already installed.
+- Install python in your device if not already installed.
 ```
-cd django-backend
-pip install -r requrirements.txt
-```
-- Back to `TravelTrack/` - `cd ..`
-- Install node.js if not already installed. 
-```
-cd vue-frontend
-npm install
+python install.py
 ```
 ## Usage
 In `TravelTrack/`
 ```
-cd django-backend
-python manage.py makemigrations
-python manage.py migrate
-python manage.py runserver
+python run.py
 ```
-In another terminal in `TravelTrack/`
-```
-npm run dev
-```
-Then go to [localhost:5173](http://localhost:5173/)
+- First the command terminal will open to show local server status (DO NOT CLOSE this).
+- Then the app will run for you to use!
 
 ## Message for contributers, forkers, and other developers
 - Please read LICENSE.md
