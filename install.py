@@ -10,7 +10,7 @@ def main():
     if os.path.isdir(django_backend_dir):
         os.chdir(django_backend_dir)
         print(f"Installing Python requirements in {django_backend_dir}...")
-        subprocess.run(['pip', 'install', '-r', 'requirements.txt'], check=True, shell=True)
+        subprocess.run(['python', '-m', 'pip', 'install', '-r', 'requirements.txt'], check=True, shell=True)
     else:
         print(f"'django-backend' directory not found at {django_backend_dir}")
         return
