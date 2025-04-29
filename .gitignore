@@ -1,7 +1,6 @@
 .vscode/
 node_modules/
 __pycache__/
-migrations/
 dist/
 dist-electron/
 build/
